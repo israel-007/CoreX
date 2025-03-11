@@ -5,18 +5,18 @@ Corex is an open-source project that brings together helper functions, utilities
 Corex is designed to be a go-to resource for developers looking for reusable and well-optimized helper functions. Initially, we are starting with PHP, but we plan to expand into JavaScript, Python, Java, and more as the project grows.
 
 ## Why Corex?
->> Speeds up development by providing pre-written, well-tested helper functions.
->> Encourages collaboration, allowing developers to contribute useful utilities.
->> Cross-language support, making it easy to find equivalent functions across different programming languages.
+* Speeds up development by providing pre-written, well-tested helper functions.
+* Encourages collaboration, allowing developers to contribute useful utilities.
+* Cross-language support, making it easy to find equivalent functions across different programming languages.
 
 ## What's Inside?
 Corex currently includes PHP helper functions for:
-✔ String Manipulation
-✔ Array Helpers
-✔ Date and Time Utilities
-✔ File Handling
-✔ HTTP Requests
-✔ Security Functions
+- ✔ String Manipulation
+- ✔ Array Helpers
+- ✔ Date and Time Utilities
+- ✔ File Handling
+- ✔ HTTP Requests
+- ✔ Security Functions
 
 …and much more!
 
