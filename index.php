@@ -1,7 +1,6 @@
 <?php 
 
 include('PHP/DeviceFingerprint/DeviceFingerprint.php');
+include('PHP/Zipper/Zipper.php');
 
-$fingerprint = new DeviceFingerprint();
-
-echo $fingerprint->generate();
+$zipper = new Zipper('new-zip');
