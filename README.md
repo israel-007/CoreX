@@ -1,16 +1,16 @@
-# Corex - The Ultimate Helper Code Library
-Corex is an open-source project that brings together helper functions, utilities, and snippets across multiple programming languages to help developers solve common problems efficiently.
+# CoreX - The Ultimate Helper Code Library
+CoreX is an open-source project that brings together helper functions, utilities, and snippets across multiple programming languages to help developers solve common problems efficiently.
 
-## About Corex
-Corex is designed to be a go-to resource for developers looking for reusable and well-optimized helper functions. Initially, we are starting with PHP, but we plan to expand into JavaScript, Python, Java, and more as the project grows.
+## About CoreX
+CoreX is designed to be a go-to resource for developers looking for reusable and well-optimized helper functions. Initially, we are starting with PHP, but we plan to expand into JavaScript, Python, Java, and more as the project grows.
 
-## Why Corex?
+## Why CoreX?
 * Speeds up development by providing pre-written, well-tested helper functions.
 * Encourages collaboration, allowing developers to contribute useful utilities.
 * Cross-language support, making it easy to find equivalent functions across different programming languages.
 
 ## What's Inside?
-Corex currently includes PHP helper functions for:
+CoreX currently includes PHP helper functions for:
 - ✔ String Manipulation
 - ✔ Array Helpers
 - ✔ Date and Time Utilities
@@ -27,6 +27,6 @@ We welcome contributions! Whether you have a handy function, an optimization, or
 
 # Get Involved
 - Star this repo to stay updated ⭐
-- Fork & contribute to make Corex better 🔧
+- Fork & contribute to make CoreX better 🔧
 - Join the discussion on future improvements 💬
 - 📢 Let's build a powerful developer toolkit together! 🚀
