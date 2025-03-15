@@ -255,8 +255,7 @@ class MorseCode
             return $this->morseMap[$char] ?? ''; // Convert each letter
         }, str_split($text));
 
-        return implode(' ', $morseCode); // Separate Morse characters by space
-        // die(json_encode($this->morseMap));
+        return implode(' ', $morseCode);
     }
 
     /**
@@ -264,7 +263,7 @@ class MorseCode
      */
     public function decrypt(string $morse): string
     {
-        $words = explode(' / ', $morse); // Morse words are separated by "/"
+        $words = explode(' / ', $morse);
         $decodedWords = array_map(function ($word) {
             $letters = explode(' ', $word);
             return implode('', array_map(function ($char) {
@@ -272,6 +271,6 @@ class MorseCode
             }, $letters));
         }, $words);
 
-        return implode(' ', $decodedWords); // Join words with spaces
+        return implode(' ', $decodedWords);
     }
 }
