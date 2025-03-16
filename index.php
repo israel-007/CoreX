@@ -12,6 +12,6 @@ include('idea.php');
 // Example usage
 
 
-    $files = Uploader::directory('uploads/')->exists('demo.jpg');
+$files = Uploader::directory('uploads/')->exists('demo.jpg');
 
-    echo json_encode($files);
+echo json_encode($files);
