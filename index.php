@@ -9,9 +9,6 @@ include('PHP/Uploader/Uploader.php');
 include('idea.php');
 
 
-// Example usage
+$backup = new DatabaseBackup('localhost', 'cart', 'root', '');
+echo $backup->dir(__DIR__ . '/uploads')->format('sql')->backup();
 
-
-$files = Uploader::directory('uploads/')->exists('demo.jpg');
-
-echo json_encode($files);
